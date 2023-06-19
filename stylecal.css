@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: cursive;
+    display: grid;
+    place-items: center;
+    height: 80vh;
+    background-image: linear-gradient(to right,rgb(0, 0, 0),rgb(226, 0, 247));
+   
+        background-color: rgb(226, 0, 247);
+        color: rgb( 0, 4, 255 );
+        font-family: 'Thunderstrike', sans-serif;
+font-family: 'Thunderstrike 3D', sans-serif;
+font-family: 'Thunderstrike Gradient', sans-serif;
+font-family: 'Thunderstrike Halftone', sans-serif;
+font-family: 'Thunderstrike Laser', sans-serif;
+font-family: 'Thunderstrike Condensed', sans-serif;
+font-family: 'Thunderstrike Expanded', sans-serif;
+font-family: 'Thunderstrike Italic', sans-serif;
+}
+.Calc{
+    width: 30%;
+    height: 70%;
+    background-color: transparent;
+    position: absolute;
+    border: 2px solid rgb(156, 156, 156);
+    border-radius: 20px;
+}
+#ans{
+    width: 90%;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.5rem;
+    border-radius: 10px;
+}
+.btn input[ type='button']{
+    width: 70px;
+    padding: 2px;
+    margin: 4px;
+    position: relative;
+    left: 23px;
+    top: 20px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.5s ease;
+    background-color:transparent;
+    border-radius: 6px;
+}
+.btn input[type='button']:hover{
+    background-color: rgb(174, 0, 255);
+    color: rgb(105, 105, 105);
+}
